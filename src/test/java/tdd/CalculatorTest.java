@@ -55,7 +55,7 @@ class CalculatorTest {
     void testSomething5(){
         String input = "1,2,3";
         int expected = 6;
-        int actual = calculator.add("1,2,3");
+        int actual = calculator.add(input);
         assertEquals(expected, actual);
     }
 
